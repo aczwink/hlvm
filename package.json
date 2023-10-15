@@ -1,0 +1,29 @@
+{
+  "name": "hlvm",
+  "version": "1.0.0",
+  "description": "hlvm is a compiler suite for scripting languages (with the name obviously being related to llvm :-) )",
+  "main": "dist/main.js",
+  "bin": "dist/main.js",
+  "scripts": {
+    "run-dev": "nodemon --exec \"tsc\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aczwink/hlvm.git"
+  },
+  "keywords": [],
+  "author": "Amir Czwink",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aczwink/hlvm/issues"
+  },
+  "homepage": "https://github.com/aczwink/hlvm#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "jison": "^0.4.18"
+  }
+}
